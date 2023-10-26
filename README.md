@@ -4,6 +4,13 @@
   </a>
 </p>
 
-# Hello world on Solana
+# Test Assignment for SFXDX
 
-This hello world guide has moved to the [main Solana documentation](https://docs.solana.com/getstarted/rust).
+This project is written in Rust to showcase the very simple solana smart contract. In this demo store users can buy and sell SPL tokens for SOL (solana currency). The purchase/sale price is determined by the store itself and stored in the separate account in solana network.
+
+One store can sell one SPL token at a fixed price. Smart contract should have the following instructions:
+
+- **initialize_store** initialization of the store's account.
+- **update_price** update the price of a token.
+- **sell** tokens for SOL.
+- **buy** tokens for SOL.

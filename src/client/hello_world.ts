@@ -176,9 +176,8 @@ export async function checkProgram(): Promise<void> {
       greetedPubkey.toBase58(),
       'to say hello to',
     );
-    const lamports = await connection.getMinimumBalanceForRentExemption(
-      GREETING_SIZE,
-    );
+    const lamports =
+      await connection.getMinimumBalanceForRentExemption(GREETING_SIZE);
 
     const transaction = new Transaction().add(
       SystemProgram.createAccountWithSeed({
