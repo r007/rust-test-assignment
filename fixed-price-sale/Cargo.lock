@@ -1050,6 +1050,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "fixed-price-sale"
+version = "0.0.1"
+dependencies = [
+ "borsh",
+ "borsh-derive 0.10.0",
+ "solana-program",
+ "solana-program-test",
+ "solana-sdk",
+]
+
+[[package]]
 name = "flate2"
 version = "1.0.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3012,17 +3023,6 @@ dependencies = [
  "tokio",
  "tokio-serde",
  "tokio-stream",
-]
-
-[[package]]
-name = "solana-bpf-helloworld"
-version = "0.0.1"
-dependencies = [
- "borsh",
- "borsh-derive 0.10.0",
- "solana-program",
- "solana-program-test",
- "solana-sdk",
 ]
 
 [[package]]
