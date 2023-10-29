@@ -1,6 +1,7 @@
 *.sw[po]
 /.cargo
 /dist
+/target
 .env
 test-ledger/
 .DS_Store
