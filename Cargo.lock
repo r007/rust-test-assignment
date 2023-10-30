@@ -526,6 +526,7 @@ version = "1.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5e3f7359eeed8d454c38bbb25eb89d98b888b1060bbfeed2cda71cb013ff2dc2"
 dependencies = [
+ "borsh-derive 1.1.1",
  "cfg_aliases",
 ]
 
@@ -1352,7 +1353,6 @@ name = "fixed-price-sale"
 version = "0.0.1"
 dependencies = [
  "borsh 1.1.1",
- "borsh-derive 1.1.1",
  "pretty_assertions",
  "solana-program",
  "solana-program-test",
