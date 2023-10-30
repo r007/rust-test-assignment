@@ -36,6 +36,7 @@ pub struct Payload {
 pub struct Args {
     // The amount in lamports that will be paid
     pub lamports: Option<u64>,
+    // Opaque data passed to the instruction processor
     pub metadata_bump: Option<u8>,
 }
 
