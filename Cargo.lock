@@ -1330,7 +1330,7 @@ dependencies = [
 name = "fixed-price-sale"
 version = "0.0.1"
 dependencies = [
- "borsh 0.9.3",
+ "borsh 0.10.3",
  "pretty_assertions",
  "solana-program",
  "solana-program-test",
