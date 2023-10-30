@@ -11,7 +11,7 @@ This project is written in Rust to showcase the very simple solana smart contrac
 One store can sell one SPL token at a fixed price. Smart contract should have the following instructions:
 
 - **initialize_store** initialization of the store's account.
-- **update_price** update the price of a token.
+- **update_price** update the price of a token (TODO, needs to be done).
 - **sell** tokens for SOL.
 - **buy** tokens for SOL.
 
