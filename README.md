@@ -14,3 +14,9 @@ One store can sell one SPL token at a fixed price. Smart contract should have th
 - **update_price** update the price of a token.
 - **sell** tokens for SOL.
 - **buy** tokens for SOL.
+
+## Deployed on
+
+| Cluster | Address                                      |
+|---------|----------------------------------------------|
+| Devnet  | ArK3BKiUg7dbU4pNQuWZ73arMp6uunSuuBjzm4gSwk8T |
