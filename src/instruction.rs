@@ -9,7 +9,7 @@ use solana_program::{
 #[derive(Debug, PartialEq)]
 pub enum FixedPriceSaleInstruction {
     Sell,
-    Buy
+    Buy,
 }
 
 impl FixedPriceSaleInstruction {

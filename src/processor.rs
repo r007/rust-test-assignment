@@ -32,7 +32,7 @@ pub fn instruction_processor(
 
     Ok(match instruction {
         FixedPriceSaleInstruction::Sell => sell(program_id, accounts, args)?,
-        FixedPriceSaleInstruction::Buy => buy(program_id, accounts)?
+        FixedPriceSaleInstruction::Buy => buy(program_id, accounts)?,
     })
 }
 

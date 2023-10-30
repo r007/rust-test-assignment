@@ -28,7 +28,7 @@ mod tests {
 
     #[test]
     fn instruction_unpack() {
-        use crate::instruction::{Args, Payload, FixedPriceSaleInstruction};
+        use crate::instruction::{Args, FixedPriceSaleInstruction, Payload};
         use solana_program::program_error::ProgramError;
 
         let args = Args {
